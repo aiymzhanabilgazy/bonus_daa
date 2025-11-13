@@ -1,14 +1,11 @@
 #  Bonus Task: Edge Removal from an MST (Minimum Spanning Tree)
-
 ------------------------------------------------------------------
 ## This project implements:
-
 1. Build the **Minimum Spanning Tree (MST) from a given graph** using **Kruskal's algorithm**.
 2. Display the MST edges before removing any edge.
 3. Remove one edge from the MST.
 4. Show the resulting components after the removal.
 5. Find a **replacement edge** to reconnect the components and display the new MST.
-
 ------------------------------------------------------------------
 ## Project Structure
 - **`Edge.java`** — represents a weighted undirected edge
@@ -35,7 +32,7 @@ The demo graph used 6 vertices(from,to,weight).
 - 2–3 (2)
 - 3–4 (5)
 - 1–4 (6)
-
+------------------------------------------------------------------
 ## Running the Project
 1. Clone the repository
 
@@ -43,7 +40,7 @@ The demo graph used 6 vertices(from,to,weight).
 
 2. Compile the project **mvn compile**
 3. Run the program  **mvn exec:java -Dexec.mainClass=Main**
-
+------------------------------------------------------------------
 ## Summary
 This project demonstrates how to maintain a Minimum Spanning Tree after removing one of its edges.
 The program first constructs an MST using Kruskal’s algorithm and displays all MST edges with their weights.
